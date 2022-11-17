@@ -1,0 +1,18 @@
+{
+    "name": "softzino/advanced-php",
+    "description": "Practising advanced topics of PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Softzino\\AdvancedPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Taosif",
+            "email": "taosif@softzino.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
