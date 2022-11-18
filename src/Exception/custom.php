@@ -1,8 +1,8 @@
 <?php
 
-class InvalidCCNumberException extends InvalidArgumentException {
-    public function __construct($message = "No CC number", $code = 100, $previous = null)
-    {
+class InvalidCCNumberException extends InvalidArgumentException
+{
+    public function __construct($message = 'No CC number', $code = 100, $previous = null) {
         return parent::__construct($message, $code, $previous);
     }
 }
@@ -22,7 +22,7 @@ function process($number = null, $zipCode = null) {
     echo 'processed';
 }
 
-function validate ($number, $zipCode) {
+function validate($number, $zipCode) {
     if (is_null($zipCode)) {
         throw new InvalidCCNumberException();
     }

@@ -3,7 +3,7 @@
 try {
     process();
 } catch (Exception $e) {
-    echo $e -> getPrevious() . PHP_EOL;
+    echo $e->getPrevious().PHP_EOL;
     echo $e;
 }
 
@@ -16,7 +16,7 @@ function process($number = null, $zipCode = null) {
     echo 'processed';
 }
 
-function validate ($number, $zipCode) {
+function validate($number, $zipCode) {
     if (is_null($zipCode)) {
         throw new Exception('Invalid Zip Code', 9);
     }
