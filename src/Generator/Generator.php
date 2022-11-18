@@ -1,5 +1,7 @@
 <?php
 
+namespace Softzino\AdvancedPhp\Generator;
+
 function fizzBuzz(int $length) {
     $res = null;
     $i = 0;
@@ -17,6 +19,6 @@ function fizzBuzz(int $length) {
     }
 }
 
-foreach (fizzBuzz(30) as $key => $value) {
-    echo $key.' --> '.$value.PHP_EOL;
-}
+// foreach (fizzBuzz(30) as $key => $value) {
+//     echo $key.' --> '.$value.PHP_EOL;
+// }

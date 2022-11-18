@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Softzino\\AdvancedPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Generator/Generator.php"
+        ]
     },
     "authors": [
         {
